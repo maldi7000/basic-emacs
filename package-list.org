@@ -19,3 +19,34 @@
    no color-theme, scrolling behavior left default
 ** setup-files
    no automatic backups (from emacs)
+* key bindings that I use most
+| kbd         | description                                                                                                 |
+|-------------+-------------------------------------------------------------------------------------------------------------|
+| C-g         | abort command                                                                                               |
+| M-x         | the one to rule them all (especially with helm)                                                             |
+| C-h [v,f,k] | emacs built-in help for [variables,functions,key-bindings]                                                  |
+|-------------+-------------------------------------------------------------------------------------------------------------|
+| C-x C-f     | open file                                                                                                   |
+| C-x b       | change buffer                                                                                               |
+| C-x C-b     | bring up ibuffer in new window                                                                              |
+| C-x k       | kill buffer                                                                                                 |
+|-------------+-------------------------------------------------------------------------------------------------------------|
+| C-k         | kill line                                                                                                   |
+| C-y         | yank line                                                                                                   |
+| M-y         | show kill ring (also very usefull with helm)                                                                |
+| C-/         | undo                                                                                                        |
+|-------------+-------------------------------------------------------------------------------------------------------------|
+| C-x [2 ,3]  | split frame [horizontally,vertically]                                                                       |
+| C-x 0       | close window                                                                                                |
+| C-x o       | change window                                                                                               |
+|-------------+-------------------------------------------------------------------------------------------------------------|
+| C-x v [=,u] | (if file under version control) [show,undo] differences                                                     |
+| M-;         | toggle comment on marked region                                                                             |
+|-------------+-------------------------------------------------------------------------------------------------------------|
+| C-c  b      | change from header (.h) file to source (.cc) file (works only if set-up correctly)                          |
+| <f5>        | compile (probably needs setting of compile command)                                                         |
+|-------------+-------------------------------------------------------------------------------------------------------------|
+| C-c C-c     | In tex-mode: TeX-command-master, for compiling, viewing, etc...                                             |
+| C-c RET     | In tex-mode: TeX-insert-macro, for inserting any TeX-macro (e.g. \ref, \Large)                              |
+| C-c C-e     | In tex-mode: LaTeX-environment, for inserting all the code needed for a LateX environment (itemize, etc...) |
+|-------------+-------------------------------------------------------------------------------------------------------------|
