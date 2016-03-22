@@ -1,0 +1,21 @@
+* Required packages (should be in built-in package manager)
+  helm(-config)
+  helm
+  helm-descbinds
+  company
+  smartparens(-config)
+  saveplace
+  compile (should be built-in by now)
+
+* Packages from other sources
+  auctex (https://www.gnu.org/software/auctex/download-for-macosx.html)
+
+* Differences to my setup
+** setup-development
+   no cedet, no ede, no semantic, no slime (or any other related (e)lisp stuff)
+** setup-programming
+   no flyspell, no whitespace
+** setup-faces-ui
+   no color-theme, scrolling behavior left default
+** setup-files
+   no automatic backups (from emacs)
